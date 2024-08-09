@@ -26,6 +26,22 @@
   "manifest": {
     "host_permissions": [
       "https://*/*"
-    ]
+    ],
+    "permissions": [
+      "tabs",
+      "notifications",
+      "contextMenus",
+      "history",
+      "background",
+      "proxy",
+      "webRequest",
+      "storage",
+      "activeTab",
+      "scripting",
+      "declarativeNetRequestWithHostAccess"
+    ],
+    "background": {
+      "persistent": true
+    }
   }
 }
